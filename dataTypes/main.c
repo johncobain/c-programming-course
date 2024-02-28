@@ -19,8 +19,8 @@ int main(){
     int j = 2147483647; //4bytes (-2,147,483,648 to +2,147,483,647)%d
     unsigned int k = 4294967295L; //4bytes (0 to +4,294,967,295)%u
 
-    long long int l = 9223372036854775807; //8bytes (-9quintillion to +9quintillion)%lld
-    unsigned long long int m = 18446744073709551615U; //8bytes (0 to +4,294,967,29518quintillion)%llu
+    // long long int l = 9223372036854775807; //8bytes (-9quintillion to +9quintillion)%lld
+    // unsigned long long int m = 18446744073709551615U; //8bytes (0 to +4,294,967,29518quintillion)%llu
 
 
 
@@ -35,7 +35,7 @@ int main(){
     printf("%d\n", i);
     printf("%d\n", j);
     printf("%u\n", k);
-    printf("%lld\n", l);
-    printf("%llu\n", m);
+    // printf("%lld\n", l);
+    // printf("%llu\n", m);
     return 0;
 }
